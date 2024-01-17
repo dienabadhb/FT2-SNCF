@@ -5,9 +5,44 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <link rel="stylesheet" href="../FT2-SNCF/src/Main.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header>
+      <div class="navbar">
+        <div class="logo">Août</div>
+        <ul class="link">
+          <li><a href="Nombres d'incidents">Nombres d'incidents</a></li>
+          <li><a href="Nombres de supressions">Nombres de supressions</a></li>
+          <li><a href="Nombres de minutes de retard">Nombres de minutes de retard</a></li>
+          <li><a href="Nombres de trains touchés">Nombres de trains touchés</a></li>
+          <li><a href="Montant compensable">Montant compensable</a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+      </div>
+    </header>
+    <div id="container">
+      <div class="Données1">
+        <p>Nombre de trains analysés</p>
+        <p>11 339</p>
+      </div>
+      <div class="Données2">
+        <p>Total train touchés</p>
+        <p>475</p>
+      </div>
+      <div class="Données3">
+        <p>Total passagers impactés</p>
+        <P>240 771</P>
+      </div>
+    </div>
+
+    <!-- <script>
+      var btn = document.getElementById('btn');
+
+      function toggleBtn(){
+        btn.classList.toggle("active")
+      }
+    </script> -->
   </body>
 </html>

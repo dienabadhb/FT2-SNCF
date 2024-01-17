@@ -1,0 +1,114 @@
+
+
+body{
+  background-color:#d1dff362;
+  position: absolute;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.597);
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logo{
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Outfit';
+  margin-left: 40px;
+  }
+
+li{
+  width: 249px;
+  height: 43px;
+  background-color: #fdfdfdbf;
+  border: white;
+  border-radius: 38px;
+  font-size: 20px;
+  font-family: 'regular';
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+  margin-top: 110px;
+  padding-left: 0px;
+
+}
+
+ul.link {
+ text-decoration: none;
+}
+
+button{
+  background-color:rgb(255, 255, 255) ;
+  height: 30px;
+  width: 75px;
+  border-radius: 20px;
+  border: 0;
+  outline: O;
+  cursor: pointer;
+  transition: background 0.5s;
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.597);
+  
+}
+
+button span{
+  display: block;
+  background: #9B5592;
+  height: 26px;
+  width: 35px;
+  border-radius: 37px;
+  margin-left: -3px;
+  transition: background 0.5s, margin-left 0.5s;
+  
+}
+
+
+.active{
+  background: #ffffff;
+}
+
+.active span{
+  background: #9B5592;
+  margin-left: 32px;
+}
+
+
+/* 2ème partie */
+
+#container{
+  background-color: #ffffff;
+  position: absolute;
+  top: 200px;
+  width: 321px;
+  height: 500px;
+  border-top-right-radius: 49px;
+  border-bottom-right-radius: 49px;
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.597);
+  display: inline-grid;
+  justify-content: center;
+  font-family: 'outfit';
+  font-size: 20px;
+}
+  
+
+.Données1{
+  border-bottom-color: red;
+}
